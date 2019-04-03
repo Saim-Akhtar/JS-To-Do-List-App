@@ -5,4 +5,5 @@
 4. Display Completed Tasks
 5. Display incomplete Tasks
 6. Refresh the List
-Note: All the features work in run time .. no data storage is included yet
+//
+NOTE: All the features work in run time .. no data storage is included yet
