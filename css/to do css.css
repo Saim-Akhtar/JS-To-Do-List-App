@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+.main{
+    outline: 5px solid black;
+    width: 450px !important;
+}
+.upper_part{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+    height: 270px !important;
+    width: inherit !important;
+    background-image: url('../images/time.jpg') !important;
+    background-size: cover;
+       
+}
+.edit_button,.delete_button{
+    margin: 0px 5px;
+    z-index: 0 !important;
+}
+.collection-item{
+    margin: 10px 0px !important;
+}
+.checked_activity span{
+    text-decoration: line-through;
+}
+.checked_activity {
+    opacity: 0.5;
+}
+.to-do{
+    padding: 27px 10px  !important;
+}
+.edit_mode button.edit_button{
+    visibility: hidden;
+}
+.edit_mode{
+    padding: 50px 10px !important;
+}
+#clear,#unchecked,#checked,#all{
+    position: fixed;
+    z-index: 1001;
+}
+#checked{
+    top: 60px;
+}
+#unchecked{
+    top: 120px;
+}
+#all{
+    top: 200px;
+}
