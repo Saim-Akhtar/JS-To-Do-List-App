@@ -12,9 +12,8 @@
     
     height: 270px !important;
     width: inherit !important;
-    background-image: url('../images/time.jpg') !important;
+    background-image: url('../images/time1.jpg') !important;
     background-size: cover;
-       
 }
 .edit_button,.delete_button{
     margin: 0px 5px;
@@ -31,6 +30,9 @@
 }
 .to-do{
     padding: 27px 10px  !important;
+}
+.to-do span{
+    font-size: 19px !important;
 }
 .edit_mode button.edit_button{
     visibility: hidden;
@@ -50,4 +52,12 @@
 }
 #all{
     top: 200px;
+}
+@media (max-width: 450px ){
+    .main{
+        width: 98% !important;
+    }
+    .upper_part{
+        width: 100% !important;
+    }
 }
