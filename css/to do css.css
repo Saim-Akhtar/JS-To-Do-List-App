@@ -3,15 +3,15 @@
 }
 .main{
     outline: 5px solid black;
-    width: 450px !important;
+ 
 }
 .upper_part{
     position: sticky;
     top: 0px;
     z-index: 1;
     
-    height: 270px !important;
-    width: inherit !important;
+    height: 400px !important;
+    
     background-image: url('../images/time1.jpg') !important;
     background-size: cover;
 }
@@ -53,11 +53,8 @@
 #all{
     top: 200px;
 }
-@media (max-width: 450px ){
-    .main{
-        width: 98% !important;
-    }
+@media (max-width: 600px){
     .upper_part{
-        width: 100% !important;
+        height: 270px !important
     }
 }
